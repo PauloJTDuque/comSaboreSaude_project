@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mensagemsuperior {
+  padding-top: 10px;
+/*    padding-bottom: 15px;*/
+   
+    text-align: center;
+    background-color: #CE5455;
+    color:#FFFFFF; 
+    font-size: 16px;    
+    width: 100%;
+    height: 50px;
+}
+
+nav img{
+  width: 235px;
+  height: 123px;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+  justify-content: space-between; 
+  width: 445px;  
+}
+.menu a{
+    color: #6C4A49;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto;
+/*    definir familia de fonte*/
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: auto;
+}
+.icones{
+    display: flex;
+    list-style: none;
+}
+
+.icones img{
+    margin: 10px;
+    width: 31px; 
+    height: 35px; 
+}
+.nav-item img{
+    margin: 10px;
+    width: 31px; 
+    height: 35px; 
+}
+
+
+
+.principal img{
+    width: 100%;
+}
+
+.categorias{
+    display: flex;
+    width: 1145px;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.linha1 img, .linha2 img, .linha3 img{
+    
+    margin-top: 30px;
+    width: 344px;
+    height: 344px;
+    padding-bottom: 10px;
+    
+}
+
+.carrossel img{
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+h2{
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+
+footer{
+    margin-top: 15px;
+    width: 100%;
+    height: 350px;
+    background-color: #CE5455;
+    color: white;
+    padding-bottom: 27px;
+    padding-top: 27px;
+    
+}
+
+.rodape{
+    display: flex;
+    
+    
+}
+
+.texto1{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 30px;
+}
+.texto{
+    
+    text-align: justify;
+    margin-left: 30px;
+}
+.mpago img{
+    width: 336px;
+    height: 204px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.botao{
+    background-color: #CE5455;
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+

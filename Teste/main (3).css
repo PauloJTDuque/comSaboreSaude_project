@@ -1,0 +1,212 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.v4_8 {
+  width: 545px;
+  height: 30px;
+  background: url("../images/v4_8.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4_9 {
+  width: 43px;
+  height: 1px;
+  background: rgba(108,74,73,1);
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 96px;
+  overflow: hidden;
+}
+.v4_10 {
+  width: 110px;
+  height: 30px;
+  background: url("../images/v4_10.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 143px;
+  overflow: hidden;
+}
+.v4_11 {
+  width: 74px;
+  height: 20px;
+  background: url("../images/v4_11.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  overflow: hidden;
+}
+.v4_12 {
+  width: 74px;
+  height: 20px;
+  background: url("../images/v4_12.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4_13 {
+  width: 74px;
+  color: rgba(108,74,73,1);
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.v4_14 {
+  width: 8px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 92px;
+  overflow: hidden;
+}
+.v4_15 {
+  width: 7px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 1px;
+}
+.v4_16 {
+  width: 82px;
+  height: 20px;
+  background: url("../images/v4_16.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 19px;
+  overflow: hidden;
+}
+.v4_17 {
+  width: 82px;
+  height: 20px;
+  background: url("../images/v4_17.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4_18 {
+  width: 82px;
+  color: rgba(108,74,73,1);
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.v4_19 {
+  width: 43px;
+  height: 20px;
+  background: url("../images/v4_19.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 96px;
+  overflow: hidden;
+}
+.v4_20 {
+  width: 43px;
+  height: 20px;
+  background: url("../images/v4_20.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4_21 {
+  width: 43px;
+  color: rgba(108,74,73,1);
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.v4_22 {
+  width: 66px;
+  height: 20px;
+  background: url("../images/v4_22.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 87px;
+  overflow: hidden;
+}
+.v4_23 {
+  width: 66px;
+  height: 20px;
+  background: url("../images/v4_23.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4_24 {
+  width: 66px;
+  color: rgba(108,74,73,1);
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Com Sabor & Saude</title>
+        <link rel="shortcut icon" href="ImagesHome/Favicon_Prancheta_1.png">
+        <link rel="stylesheet" href="css/Estilo.css">  
+        
+        <!--        css do bootstrap-->
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        
+<!--        javascritp do bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+             
+        
+    </head>
+    
+    <body>
+        <!--  Mensagem Superior      -->
+         <div class="mensagemsuperior">
+            <p>
+                Em virtude da ausência de conservantes: pedidos feitos na seg. e ter., são entregues na qua., feitos na       qua. e qui., são entregues na sexta, feitos na sex, sab. e dom., são entregues na seg. 
+            </p>
+            
+        </div>
+        <!--  Cabecalho    -->
+        <header>
+                                <!-- NAV EM HTML -->
+            <!-- <nav>
+                <a href="#"><img src="ImagesHome/Logo.png" alt="Logo Com Sabor e Saude"></a>
+
+                <ul class="menu">
+
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Contato</a></li>
+
+                 </ul>
+                  <div>
+                    <ul class="icones">
+
+                          <li> <a href="#"><img src="ImagesHome/Lupa.png" alt="Usuario"></a></li>
+                          
+                          <li><a href="#"><img src="ImagesHome/Teste%20User.png" alt="Usuario"></a></li>
+                          
+                          <li><a href="#"><img src="ImagesHome/Carrinho-1.png"></a></li>
+                      
+                      
+                    </ul>
+                  </div>
+                </ul>   
+                
+            </nav> -->
+
+            <!-- NAV USANDO BOOTSTRAP -->
+
+            <nav class="navbar navbar-expand-lg navbar-light " style="background-color: white;">
+
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="#"><img src="ImagesHome/Logo.png" alt="Logo Com Sabor e Saude"></a>
+
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span  class="navbar-toggler-icon"></span>
+                          </button>
+
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Início</a>
+                              </li>
+                              
+                              <li class="nav-item dropdown">
+
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Produtos
+                                  </a>
+
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a class="dropdown-item" href="#">Alimentos FUncionais</a></li>
+                                      <li><a class="dropdown-item" href="#">Bolos de Pote</a></li>
+                                      <li><a class="dropdown-item" href="#">Brownies</a></li>
+                                      <li><a class="dropdown-item" href="#">CheeseCake</a></li>
+                                      <li><a class="dropdown-item" href="#">Docinhos</a></li>
+                                      <li><a class="dropdown-item" href="#">Festas</a></li>
+                                      <li><a class="dropdown-item" href="#">Frutas Congeladas</a></li>
+                                      <li><a class="dropdown-item" href="#">Geleias</a></li>
+                                      <li><a class="dropdown-item" href="#">Mousses</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">Outra Coisa</a></li>
+                                  </ul>
+
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Sobre Nós</a>
+                                  </li>
+
+                                  <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="#">Contato</a>
+                                  </li>
+                                
+                              </li>
+                              
+                            </ul>
+                            <form class="d-flex">
+ 
+                              <!-- Barra de Pesquisa -->
+                              <!-- <input class="form-control me-2" type="search" placeholder="Digite o que pesquisar?" aria-label="search">
+                              <button class="btn btn-outline-success" type="submit">Busca</button> -->
+                              <!-- Icones SVG -->
+                              <!-- <li class="nav-item" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="#CE5455" class="bi bi-person-circle" viewBox="0 0 16 16" >
+                                <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                                <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+                                </svg>
+                              </li> 
+                              <li class="nav-item" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#CE5455" class="bi bi-cart3" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                                </svg>
+                              </li>  -->
+
+
+                              <ul class="icones">
+                                <li> <a href="#"><img src="ImagesHome/Lupa.png" alt="Usuario"></a></li>
+                          
+                                <li><a href="#"><img src="ImagesHome/Teste%20User.png" alt="Usuario"></a></li>
+                                
+                                <li><a href="#"><img src="ImagesHome/Carrinho-1.png"></a></li>
+                              </ul> 
+                              
+
+                             
+                            </form>
+                          </div>
+                        </div> 
+                      </nav> 
+
+
+                    </header> 
+
+         <!-- Categorias     -->
+
+        <div class="principal">
+            <img src="ImagesHome/banner-novo-pagina-inicial.png">
+        </div>
+        <div class="categorias">
+           
+            <div class="linha1">
+                
+                <a href="#"><img src="ImagesHome/Categoria_Alimentos_Funcionais.png"></a>
+                <a href="#"><img src="ImagesHome/Categoria_Geleias.png"></a>
+                <a href="#"><img src="ImagesHome/Categoria_Brownie.png"></a>
+            
+            </div>
+            
+            <div class="linha2">
+                
+                <a href="#"><img src="ImagesHome/Categoria_Cheesecake.png"></a>
+                <a href="#"><img src="ImagesHome/Categoria_Mousse.png"></a>
+                <a href="#"><img src="ImagesHome/Categoria_Bolos_de_Pote.png"></a>
+            
+            </div>
+            
+            <div class="linha3">
+                
+                <a href="#"><img src="ImagesHome/Docinhos_Categoria.png"></a>
+                <a href="#"><img src="ImagesHome/FRUTAS-CONGELADAS.jpg"></a>
+                <a href="#"><img src="ImagesHome/Panetone-Capa.jpg"></a>
+            
+            </div>
+            
+        
+        </div>
+        <main>
+        <div class="carrossel">
+             
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="ImagesHome/Categoria_Alimentos_Funcionais_Banner.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="ImagesHome/Categoria_Bolos_de_Pote_Banner.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="ImagesHome/Categoria_Brownie_Banner.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="ImagesHome/Categoria_Cheesecake_Banner.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="ImagesHome/Categoria_Geleias_Banner.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="ImagesHome/Categoria_Mousse_Banner.png" class="d-block w-100" alt="...">
+                    </div>
+                                    
+                    
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+     
+            
+        </div>
+
+        <!--  BLOG C/ Boot Strap --> 
+            
+        <!--         Primeiro Card    -->
+            
+        <section id="blog">  
+
+                <div class="row container">
+
+                  <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="ImagesHome/Modificada%201.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Alimentos que combatem a Inflamação!</h5>
+                                <p class="card-text">Nessa era de alta inflamação corporal devido ao estresse/ansiedade, até mesmo relacionado com a pandemia, o medo, receio...</p>
+                            <a href="#" class="botao">Saiba mais</a>
+                          </div>
+                        </div>
+                  </div>
+                    
+                
+                <!--         Segundo Card    -->
+                
+                
+                  <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="ImagesHome/Sem_acucar_Blog%201.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Devemos evitar o consumo de açúcar?</h5>
+                                <p class="card-text">É de conhecimento da maioria que a ingestão de açúcar não faz bem a saúde.Segundo dados da Pesquisa de Orçamento Familiar (POF 2008-2009), a popula....</p>
+                            <a href="#" class="botao">Saiba mais</a>
+                          </div>
+                        </div>
+                  </div>
+                
+         <!--         Terceiro Card    -->  
+                    
+                  <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="ImagesHome/Dieta_low_carb_nao_e_moda_Post_Blog_520x500.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dieta Low Carb veio para ficar.</h5>
+                                <p class="card-text">Dieta low carb não é moda. A moda low carb não existe. Moda passa e isso não vai passar. Essa dieta era a dieta praticada por nossos antepassados ...</p>
+                            <a href="#" class="botao">Saiba mais</a>
+                          </div>
+                        </div>
+                  </div>
+                
+                
+                <!--         Quarto Card    -->  
+  
+                
+                
+                  <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="ImagesHome/Post_Blog_Reduzido_Alimentacao_x_Atividade_520x500.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">O que traz mais beneficios ao seu corpo?</h5>
+                                <p class="card-text">Atualmente vivemos em um mundo onde todos almejam a famosa qualidade de vida. Está mais do que bem estabelecido que para que tenhamos saúde, é nece...</p>
+                            <a href="#" class="botao">Saiba mais</a>
+                          </div>
+                        </div>
+                  </div>
+
+                
+            </div> 
+            
+            
+        </section>      
+   
+      </main>
+        
+      <footer>
+               <div class="rodape">
+                   
+                    <div class="texto1">
+                        <h6>Informações Importantes</h6>
+                        <a href="#" >Termos de Uso</a><br>
+                        <a href="#" >Política de Privacidade</a><br>
+                        <a href="#" >Política de Troca e Devolução</a><br>
+                        <a href="#" >Política de Entrega</a>
+                        <br><br><br><br><br><br>
+                        <p>© 2020, Com Sabor & Saúde</p>
+                        <p>Direitos Reservados</p>
+
+                    </div>
+                   
+                    <div class="texto">
+                        
+                        <h6>Grandes coisas fez o Senhor por nós! Salmo 126:3</h6>
+                        <p>CNPJ: 20.793.251/0001-88</p>
+                        <p>contato@comsaboresaude.com.br</p>
+                        <p>WhatsApp: 019 992715503</p>
+                        <p>Rua nove, 2915 - Santana, Rio CLaro SP </p>
+                        <p>CEP 13.504-097</p>
+
+                    </div>
+                    
+                   <div class="mpago">
+                        <img src="ImagesHome/seguranca.png">
+                       
+                   </div>
+                   
+                </div>
+                
+      </footer>
+        
+                
+        
+    
+    </body>
+
+
+
+
+
+
+
+
+</html>

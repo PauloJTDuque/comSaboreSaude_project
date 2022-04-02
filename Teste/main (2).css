@@ -1,0 +1,10 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.v4:25 {
+  background: url("../images/v4:25.png");
+  width: 235px;
+  height: 123px;
+}
